@@ -15,6 +15,7 @@ Dependency and compilation: to compile this code please
 3). compile and install the FFTW3 library. The cmake file should be able to find the FFTW3 library. If not please manually specify the directory in the cmake file. 
 
 Files: 
+
 N4.py - A simple numpy implementation for the N4 algorithm, For people interested in the algorithm but does not want to go through the CUDA code or the original C++ code. 
 
 cudaN4.h/cudaN4.cu - the core CUDA N4 class. Both the histogram sharpening and B-spline fitting for dense volumes are coded here. 
