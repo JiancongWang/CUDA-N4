@@ -34,22 +34,6 @@ target_link_libraries(cuda_obj fftw3f)
 # Compiler config - make sure this comes after the nvcc compile to prevent interference to nvcc
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -pthread -lpthread")
 
-add_executable(testCUDAN4 testCUDAN4.cpp) # only used one c++ class for this test
-
-# Link FFTW to main
-target_link_libraries(testCUDAN4 fftw3)
-target_link_libraries(testCUDAN4 fftw3f)
-
-# Link ITK/VTK to main
-target_link_libraries(testCUDAN4 ${ITK_LIBRARIES} )
-
-# Link CUDA to main
-target_link_libraries(testCUDAN4 ${CUDA_LIBRARIES})
-
-# Link CUDA obj to main
-target_link_libraries(testCUDAN4 cuda_obj)
-
-
 add_executable(CUDAN4 main.cpp) # only used one c++ class for this test
 
 # Link FFTW to main
