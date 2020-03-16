@@ -14,7 +14,7 @@ Dependency and compilation: to compile this code please
 
 3). compile and install the FFTW3 library. The cmake file should be able to find the FFTW3 library. If not please manually specify the directory in the cmake file. 
 
-Files: 
+File Structures: 
 
 N4.py - A simple numpy implementation for the N4 algorithm, For people interested in the algorithm but does not want to go through the CUDA code or the original C++ code. 
 
