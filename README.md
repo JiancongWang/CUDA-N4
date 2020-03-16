@@ -1,7 +1,7 @@
 # CUDA-N4
 This is a complete CUDA implementation of the N4 bias correction algorithm. It implements the 
 1). Histogram sharpening
-2). B-spline fitting on dense volume of values
+2). Cubic B-spline fitting on dense volume of values. 
 and 3). other auxillary functions using CUDA.
 
 Currently it is roughly 4x faster than the CPU implementation of N4 from ANTs and SimpleITK, benchmarking on a 
