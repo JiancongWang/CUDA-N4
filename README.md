@@ -9,7 +9,9 @@ machine with i7 4790K and a GTX 1080, running Ubuntu 16.04, CUDA 10.1, driver ve
 
 Dependency and compilation: to compile this code please  
 1). Install cmake
+
 2). compile the ITK toolkits and change the ITK directory within the CMakeLists.txt file. The ITK is only for image reading/writing. The core algorithm is completely CUDA.
+
 3). compile and install the FFTW3 library. The cmake file should be able to find the FFTW3 library. If not please manually specify the directory in the cmake file. 
 
 Files: 
