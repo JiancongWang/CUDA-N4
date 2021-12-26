@@ -1,4 +1,4 @@
-/* Written by Jiancong Wang, PICSL lab.
+/* Written by Jiancong Wang.
  * This implements the N4 bias correction algorithm in CUDA, with a fixed
  * cubic B spline.
  * The original paper titled "N4ITK: Improved N3 Bias Correction".
